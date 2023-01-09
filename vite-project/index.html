@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/logo.svg" type="image/x-icon">
+  </head>
+  <body>
+    <style>
+      html{
+        overflow-x:hidden;
+        
+      }
+      body{
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        font-family:Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 0, 0);
+      }
+      body::-webkit-scrollbar-thumb {
+      background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+      border-radius: 3px;       /* roundness of the scroll thumb */
+      border: 3px solid #ff3c00;  /* creates padding around scroll thumb */
+      }
+      body::-webkit-scrollbar-track {
+      background: rgb(0, 0, 0);        /* color of the tracking area */
+      }  
+      body::-webkit-scrollbar {
+      width: 8px;               /* width of the entire scrollbar */
+      }
+   
+    </style>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
